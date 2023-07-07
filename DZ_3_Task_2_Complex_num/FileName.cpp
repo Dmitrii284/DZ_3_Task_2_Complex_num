@@ -1,10 +1,9 @@
-#include<iostream>
 #include"Header.h" 
 
 
-	inline Complex::Complex() { }
-	inline Complex::Complex(double real) : _real{ real }, _imag{ _imag = 0 } { }
-	inline Complex::Complex(double real, double imag) : _real{ real }, _imag{ imag } { }
+	 Complex::Complex() { }
+	 Complex::Complex(double real) : _real{ real }, _imag{ _imag = 0 } { }
+	 Complex::Complex(double real, double imag) : _real{ real }, _imag{ imag } { }
 
 	void Complex::Show()
 	{
